@@ -1,0 +1,135 @@
+
+/* Color
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+*/
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 30px;
+    word-spacing: 0.25em;
+}
+body > h1 {
+    display: none;
+}
+
+a {
+    color: #EF233C;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+.content-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+h1, h2 {
+    font-family: 'Architects Daughter', cursive;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 30px;
+    margin-top: 0;
+}
+h3 {
+
+    font-size: 20px;
+    margin: 0;
+
+}
+nav {
+  text-align: center;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.container {
+  padding-top: 50px;
+}
+
+/* header & footer -
+----------------------*/
+header, footer {
+    background: #2B2D42;
+    color: #8D99AE;
+}
+/* header ----------*/
+
+.profile-img {
+    float: left;
+    width: 270px;
+    height: 240px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+header h1 {
+    color: white;
+    margin: 0;
+}
+header p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+/* footer
+--------------------- */
+footer  {
+text-align: center;
+}
+footer h2 {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.contact a {
+    padding: 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.hobbies {
+    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5));
+}
+
+.day {
+    text-align: right;
+    background-image: url(time.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.dots {
+    list-style: none;
+}
+
+/*
+rgb(220,20,60)
+
+
+rgb(255,99,71)
+--------------*/
